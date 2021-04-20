@@ -170,8 +170,6 @@ function executeTest($url, $name, $callingHostAddress, $protocol) {
 }                                                                                                                                                                                                                                                                                         
 function executeTweet($label, $domain) {
 	$result = "";
-	#$cmd = "tweet --consumer-key 4GwY031MY5CBuSzIlm1A7BpuQ --consumer-secret BgjrqPjIMKtd2fYb3fDMXGBmoOvsf3GRgvafIYNjNKfbWzOHAQ --access-secret "
-	#."9oK4TTWMBCteitnb9DuSHYYeLgfcUe166Gw1CgkQVCW1I --access-key 796767075909988352-bfQDJHYsdwHfx6WcEyMfDJyRmODLsaQ \"".escapeshellarg($domain)." tested with result: ".escapeshellarg($label)." - ".escapeshellarg("http://ipv6alizer.se?address=".$domain)."\"";
 	$cmd = "perl /home/ipv6alizer/oysttyer/oysttyer.pl -hold -status=\"".escapeshellarg($domain)." tested with result: ".escapeshellarg($label)." - ".escapeshellarg("http://ipv6alizer.se?address=".$domain)."\"";
 	try {
 		while (@ ob_end_flush());
