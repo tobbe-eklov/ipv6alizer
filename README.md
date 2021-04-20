@@ -12,3 +12,5 @@ pmtu.sh - script to call scamper
 sudoers - scamper must run as root
 
 public_html - the webb
+
+The twitter integration is using https://github.com/oysttyer/oysttyer 
