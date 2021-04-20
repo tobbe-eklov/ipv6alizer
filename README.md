@@ -1,5 +1,5 @@
 # ipv6alizer
-Code to create the old and now dead https://ipv6alizer.se who got to many false positives and I don't have time or money to support it longer.
+Code to create the old and now dead https://ipv6alizer.se who got to many false positives and I don't have time or money to support it longer. Please fork and make it better!
 
 Files - Catalogs
 
