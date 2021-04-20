@@ -15,6 +15,6 @@ public_html - the webb
 
 ipv6alizer.sql - the mariadb/mysql database
 
-*.sp - some mariadb/mysql things
+Other .sp and .sql - some mariadb/mysql things
 
 The twitter integration is using https://github.com/oysttyer/oysttyer 
