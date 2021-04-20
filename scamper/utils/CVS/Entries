@@ -1,0 +1,17 @@
+/.cvsignore/1.1/Thu Feb 10 20:33:00 2011//Tcvs-20141211e-release
+/Makefile.am/1.10.2.2/Mon Dec  7 07:18:14 2015//Tcvs-20141211e-release
+D/sc_ally////
+D/sc_analysis_dump////
+D/sc_attach////
+D/sc_filterpolicy////
+D/sc_ipiddump////
+D/sc_speedtrap////
+D/sc_tbitblind////
+D/sc_tracediff////
+D/sc_warts2csv////
+D/sc_warts2json////
+D/sc_warts2pcap////
+D/sc_warts2text////
+D/sc_wartscat////
+D/sc_wartsdump////
+D/sc_wartsfix////

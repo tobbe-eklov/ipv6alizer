@@ -1,0 +1,12 @@
+/.cvsignore/1.1/Fri Oct 10 01:28:45 2014//Tcvs-20141211e-release
+/scamper_ping.c/1.29.14.3/Wed Jun 22 08:15:36 2016//Tcvs-20141211e-release
+/scamper_ping.h/1.45.10.2/Thu Dec  3 06:54:12 2015//Tcvs-20141211e-release
+/scamper_ping_do.c/1.143.6.3/Fri Jan  8 07:57:34 2016//Tcvs-20141211e-release
+/scamper_ping_do.h/1.13/Thu Apr  5 18:00:54 2012//Tcvs-20141211e-release
+/scamper_ping_json.c/1.11.6.1/Thu Dec  3 07:17:59 2015//Tcvs-20141211e-release
+/scamper_ping_json.h/1.2/Thu Jul 18 21:17:09 2013//Tcvs-20141211e-release
+/scamper_ping_text.c/1.12.6.1/Thu Dec  3 07:21:09 2015//Tcvs-20141211e-release
+/scamper_ping_text.h/1.2/Fri Sep 16 03:15:44 2011//Tcvs-20141211e-release
+/scamper_ping_warts.c/1.13/Thu Jun 12 19:59:48 2014//Tcvs-20141211e-release
+/scamper_ping_warts.h/1.2/Fri Sep 16 03:15:44 2011//Tcvs-20141211e-release
+D

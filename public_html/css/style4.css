@@ -1,0 +1,306 @@
+body{
+    /*background-color:#535353;*/
+        background-color: rgba(255, 255, 255, 1) ;
+
+}
+#content{
+    border: 0px solid blue;
+    width: 90%;
+    background-color:rgb(194,221,176);
+    border-radius: 6px;
+    height: 100%;
+   /*height: 250px;*/
+}
+.header{
+    margin-top: 70px;
+    margin-right: 0px;
+    margin-bottom: 21px;
+    margin-left: 0px;
+}
+.jumbotron{
+    color: black;
+    border-top: 3px solid rgba(235, 235, 235, 1);
+    margin-top: 50px;
+    box-shadow: none !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-image: url('../images/bg.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #E9E8E4), to(#fff)) !important;;
+    height: 100vh;
+    margin-bottom: 0px;
+}
+.jumbotron a{
+    color: rgb(0,167,84);
+} 
+
+.navbar-header{
+    /*background-color:rgb(0,167,84);*/
+    
+}
+.navbar-default {
+    color: white;
+    background-image:none !important;
+    background-color: rgba(255, 253, 253, 1) !important;
+    border: none !important;
+
+
+}
+.navbar-default a:hover{
+    /*background-color:rgb(0,167,84);*/
+    color: #333 !important;
+    
+}
+.navbar-brand{
+    color: #00A754 !important;
+    text-shadow: none !important;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-shadow: none !important;
+}
+#terminal { 
+background:black;
+color: #00A754;
+/*color: #444;*/
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+line-height: 1.5em;
+}
+#terminal p{ 
+color: #00A754!important;
+
+}
+
+
+label{
+    padding-right: 3px;
+}
+.navbar-outer {
+  width:300px;
+}
+
+#bMtu{
+    background-color: rgb(0,167,84) !important;
+    background-image: none;
+}
+.form-control:focus {
+  border-color: rgb(0,167,84);
+  box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0,167,84,0.6);
+}
+.checkboxUseHttpsText{
+    padding-top: 0px !important; 
+    margin-top: 0px !important;
+}
+.checkboxUseHttpsText h4{
+    padding-left: 7px; 
+    margin-top: 14px !important;
+}
+
+
+
+/* FINDER WINDOW */
+
+#window{
+    width: 100%;
+    margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom:40px;
+    min-width: 500px; 
+    background: #fff;
+    border-radius: 0px;
+   /* -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    -webkit-transition:all 0.5s; */
+    overflow: hidden; 
+}
+
+/* TOP BAR */
+
+
+
+
+#terminal {
+    font-family: Andale Mono, monospace;  line-height: 1em;
+    font-size:13px;
+    float: left;
+    width: 100%;
+    min-height:150px;
+    background:white;
+    padding:10px;
+    line-height:1.5em;
+    border: 1px solid #00A754;
+}
+  
+#terminal p::-webkit-selection  {
+    background:#0b209e;
+}
+#terminal p::selection { background:#0b209e; }
+#terminal p::-moz-selection { background:#0b209e; }
+
+#terminal p {
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size:13px;
+  white-space: pre-wrap;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  padding-left: 15px;
+  text-indent: -15px;
+  margin-top: 4px;
+}
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #00A754;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+ .warning {color: red;}
+
+ .loader {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    border: 4px solid #00A754;
+    border-top: 4px solid #f3f3f3;
+    border-bottom: 4px solid #f3f3f3;   
+
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.terminal-warning {
+  color: red;
+}
+
+.terminal-notice {
+  color: black;
+}
+
+.terminal-log {
+  color: #CCCCCC;
+}
+
+#result-container{
+    float: left;
+    width: 100%;
+    min-height:150px;
+    padding:10px;
+    line-height:1.5em;
+    border: 1px solid #00A754;
+    border-top: 0px;
+}
+#result-container.result-container-green{
+    border-top: 2px solid rgba(0,167,84,1);
+    border-bottom: 2px solid rgba(0,167,84,1);
+    border-left: 2px solid rgba(0,167,84,1);
+    border-right: 2px solid rgba(0,167,84,1);
+    background-color:rgba(0,167,84,0.1);
+    color: #00A754 !important;
+}
+#result-container.result-container-red{    
+    border-top: 2px solid rgba(255,0,0,1);
+    border-bottom: 2px solid rgba(255,0,0,1);
+    border-left: 2px solid rgba(255,0,0,1);
+    border-right: 2px solid rgba(255,0,0,1);
+    background-color:rgba(255,0,0,0.1);
+    color: red !important;
+}
+#result-container.result-container-white {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: white !important;
+}
+#resultTabs{
+    background-color: #00A754;
+    border: 0px;
+}
+.active{
+   background-color:rgba(0,167,84);
+}
+.share-container-hide {
+  display: none;
+}
+.share-container-visible {
+  display: block;
+}
+
+.nav-tabs > li > a {
+  color: white;
+}
+.nav-tabs > li > a:hover {
+  color: #00A754;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+  color: rgba(0,167,84,1);
+  border-left: 1px solid #00A754;
+  border-top: 1px solid #00A754;
+}
+.nav-tabs li a:hover{
+    background-color: white;
+    border-left: 1px solid #00A754;
+    border-top: 1px solid #00A754;
+    border-bottom: 1px solid white;
+}
+#button-tweet {
+    padding: 2px;
+    padding-right: 8px;
+    background-color: #1EA1F3 !important;
+    background-image: none;
+}
+.close:hover { color: #00A754; }

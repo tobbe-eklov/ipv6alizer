@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style4.css">
+    <script type="text/javascript" src="./script/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="./script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./script/index.js"></script>
+    <script type="text/javascript" src="./script/knockout-3.4.0.js"></script>
+    <title>IPv6alizer</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: black;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                <a class="navbar-brand" href="#">IPv6alizer</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--
+						<li><a href="#">Page 1</a></li>
+						<li><a href="#">Page 2</a></li> 
+						<li><a href="#">Page 3</a></li> 
+					-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class='jumbotron'>
+        <div class="container" style="border: 0px solid black;">
+            <h1>IPv6alizer</h1>
+            <p>Site to test MTU and PTB handling for IPv6 enabled sites. Developed by <a href="https://www.interlan.se/">Interlan</a>, funded by <a href="https://www.iis.se/"> IIS</a>. Inspired by <a href="https://zonalizer.makeinstall.se">Zonalizer</a> and <a href="https://github.com/dotse/zonemaster-engine">Zonemaster</a>.
+            </p>
+            <div style='min-height 15px;'>
+                <div class="form-group">
+                    <label for='address' class='control-label sr-only'>Hostname</label>
+
+                    <div class="input-group">
+                        <input type='text' id="address" class='form-control' placeholder='ex: www.interlan.se'>
+                        <span class="input-group-btn">
+							<button class="btn btn-primary" value='MTU Test' id='bMtu'>Check</button>
+						</span>
+                    </div>
+                    <label class="switch checkbox-inline" style="float:left;">
+						<input  type="checkbox" id="checkboxUseHttps"> 
+						<div class="slider round" style="float:right;"></div>
+					</label>
+                    <label class="checkboxUseHttpsText">
+                        <h4>HTTPS</h4>
+                    </label>
+                </div>
+
+                <div id="share-container" class="share-container-hide">
+                    <label><h4>Share this result</h4></label>
+                    <div class="input-group">
+                        <input type='text' id="share" class='form-control'>
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" id="button-tweet" value="tweet"><img src="./images/twitter.png" width="28" height="28"/>Tweet result!</button>
+                        </span>
+                     </div>
+                </div>
+            <div id="window">
+                <ul class="nav nav-tabs" id="resultTabs">
+                    <li class="active"><a data-toggle="tab" href="#outputTab">Output</a></li>
+                    <li><a data-toggle="tab" href="#resultTab">Result</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="outputTab" class="tab-pane fade in active">
+                        <div id="terminal">
+                        </div>
+                    </div>
+                    <div id="resultTab" class="tab-pane fade">
+                        <div id="result-container">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Twitter Modal -->
+            <div class="modal fade" id="twitterModal" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                                <span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Tweet done!<img src="./images/twitter_logo_blue.png" width="26" height="26"/></h4>
+                        </div>
+                        <div class="modal-body">
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+</body>
+
+</html>
